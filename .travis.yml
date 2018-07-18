@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  app: sheltered-basin-55844
+  provider: heroku
+  api_key:
+    secure: Uu5DaOiwnoShV1kYosNNcb9XeJIbnVttgBM0wHHZJsVXx0mxSbWIhsuwR/+tEd4rvFcQGHYXZAELxmPrfN7mYgt3xqFS4n1ZAbD7jv2bAvGshFc4zjGP6MSX4QehXMAt54sl+t9es38q+TKAnbKUTTu9eWFpe5sgGnlhip+WjG4+V6i4z0XWRrkfNUaq8NYJqyxPQJUndVkKnze25UMi0IAVijByAREKLRDLNBAfuuHQr49H1F7PvqKN9KSghp80so4wH5S40t+HHf8BpSp4Zh4EXnNf7SVgCmhazLMQ1txDz5wcLvPY5RF5pO3Llj6JGqRYoP96tz0jHP99aaMGOnDQ+yVIQTduwDE2zNOzb7qbHUL5CraPuZp6Lnwwct8zueRZGCRNV9PIhUxYYet0xZVKYNgyueAMtAz2JQXhVuWnUfphi1bdKAWB+X3zghxJMt6+3KRxTTO3j/2y6lByksyCdZT0bWKSJY+gJf1VHTapvkl8I3OYqKAqSdPwRIJqM51gZ+SSuY+G3EP00J8dnaFb6+MhwB2CKjUD0n09jdORc3ogQgNYg1rxZIoKvKMJjbWl+ITa1mmniWs1Ulf1GcbFEf9uf1aEu8Lcyu+13JXrQumdxFcT2gLsVMpRWhuST9FZsCuAzbX9iEWCvA0Gt3T0ccXzLEvwGXyPTVgbp+A=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: ellendunn/node-shopping-list-integration-tests
